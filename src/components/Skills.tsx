@@ -13,14 +13,10 @@ export default function Skills() {
               {skill.category}
             </span>
             <div className="flex flex-wrap gap-1.5">
-              {skill.items.map((item, i) => (
+              {skill.items.map((item) => (
                 <span
                   key={item}
-                  className={`inline-block px-2 py-0.5 rounded text-[13px] ${
-                    i === 0
-                      ? "bg-blue-50 text-blue-700 font-medium"
-                      : "bg-gray-100 text-gray-600"
-                  }`}
+                  className="inline-block px-2 py-0.5 rounded bg-gray-100 text-[13px] text-gray-600"
                 >
                   {item}
                 </span>
