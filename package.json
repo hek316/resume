@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node -e \"if (!require('fs').existsSync('src/data/resume.json')) { const d = process.env.RESUME_DATA; if (d) require('fs').writeFileSync('src/data/resume.json', d); else { console.error('ERROR: src/data/resume.json not found. Copy resume.example.json or set RESUME_DATA env var.'); process.exit(1); } }\"",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

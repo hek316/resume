@@ -18,6 +18,14 @@ export default function Education() {
             </span>
           </div>
         ))}
+        {resume.training.map((tr) => (
+          <div key={tr.name} className="flex flex-col sm:flex-row gap-1 sm:gap-5">
+            <div className="w-[130px] shrink-0">
+              <span className="text-[13px] text-gray-400 tabular-nums">{tr.period}</span>
+            </div>
+            <span className="text-sm text-gray-700">{tr.name}</span>
+          </div>
+        ))}
       </div>
     </section>
   );

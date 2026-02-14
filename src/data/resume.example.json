@@ -1,0 +1,75 @@
+{
+  "profile": {
+    "name": "홍길동",
+    "title": "백엔드 개발자",
+    "email": "hong@example.com",
+    "phone": "010-1234-5678",
+    "location": "서울특별시"
+  },
+  "careerSummary": {
+    "tagline": "N년차 백엔드 개발자 | 핵심 키워드",
+    "description": "자기소개 한 줄 요약을 작성하세요.",
+    "highlights": [
+      "핵심 성과 1",
+      "핵심 성과 2",
+      "핵심 성과 3"
+    ],
+    "closing": "마무리 한 줄을 작성하세요."
+  },
+  "skills": [
+    { "category": "Language", "items": ["Java", "Python"] },
+    { "category": "Framework", "items": ["Spring Boot"] },
+    { "category": "Database", "items": ["MySQL", "PostgreSQL"] }
+  ],
+  "experience": [
+    {
+      "company": "회사명",
+      "team": "팀명",
+      "role": "직무",
+      "period": "2023.01 - 현재",
+      "description": "업무 설명",
+      "achievements": [
+        {
+          "title": "주요 성과 제목",
+          "analysis": "문제 분석 내용",
+          "solution": "해결 방법",
+          "results": [
+            "결과 1",
+            "결과 2"
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "프로젝트명",
+      "client": "고객사명",
+      "techStack": ["Java", "Spring Boot"],
+      "achievements": [
+        {
+          "title": "성과 제목",
+          "solution": "해결 방법",
+          "results": ["결과 1"]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "대학교명",
+      "degree": "학과 졸업",
+      "period": "2018.03 - 2022.02"
+    }
+  ],
+  "certifications": [
+    { "name": "자격증명", "year": "2023" }
+  ],
+  "training": [
+    { "name": "교육명", "period": "2023.01 - 2023.06" }
+  ],
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/username" },
+    { "label": "Blog", "url": "https://blog.example.com" }
+  ]
+}
