@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="max-w-[640px] mx-auto px-6 py-16">
+    <main className="max-w-[860px] mx-auto px-6 py-12">
       <Header />
       <CareerSummary />
       <Skills />

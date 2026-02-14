@@ -2,7 +2,7 @@ import { resume } from "@/data/resume";
 
 export default function Footer() {
   return (
-    <footer className="print-hidden pt-8 border-t border-gray-200 text-center">
+    <footer className="print-hidden pt-8 border-t border-gray-200 flex items-center justify-between">
       <p className="text-[13px] text-gray-400">
         {resume.links.map((link, i) => (
           <span key={link.url}>
@@ -17,6 +17,9 @@ export default function Footer() {
             </a>
           </span>
         ))}
+      </p>
+      <p className="text-[12px] text-gray-300">
+        Updated Feb 2026
       </p>
     </footer>
   );

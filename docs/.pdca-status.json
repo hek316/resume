@@ -1,7 +1,10 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-02-15T01:30:00.000Z",
-  "activeFeatures": ["developer-resume"],
+  "lastUpdated": "2026-02-14T16:48:10.647Z",
+  "activeFeatures": [
+    "developer-resume",
+    "resume"
+  ],
   "primaryFeature": "developer-resume",
   "features": {
     "developer-resume": {
@@ -10,6 +13,19 @@
       "iterationCount": 0,
       "startedAt": "2026-02-15T00:00:00.000Z",
       "lastActivity": "2026-02-15T01:30:00.000Z"
+    },
+    "resume": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-14T16:39:03.923Z",
+        "lastUpdated": "2026-02-14T16:48:10.647Z"
+      },
+      "lastFile": "/Users/eunkyung/resume/src/components/Footer.tsx"
     }
   },
   "pipeline": {
@@ -20,7 +36,7 @@
   "session": {
     "startedAt": "2026-02-14T15:48:07.729Z",
     "onboardingCompleted": true,
-    "lastActivity": "2026-02-15T01:30:00.000Z"
+    "lastActivity": "2026-02-14T16:48:10.647Z"
   },
   "history": [
     {
@@ -44,6 +60,150 @@
       "feature": "developer-resume",
       "timestamp": "2026-02-15T01:30:00.000Z",
       "note": "All 14 steps implemented, build successful"
+    },
+    {
+      "timestamp": "2026-02-14T16:39:03.923Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:40:29.738Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:40:39.383Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:40:46.875Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:40:52.127Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:42:43.701Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:42:47.252Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:42:50.378Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:42:53.287Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:42:54.387Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:42:55.665Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:42:59.200Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:43:00.264Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:43:01.363Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:43:04.380Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:43:05.356Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:43:06.327Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:47:31.457Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:47:35.744Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:47:42.272Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:47:52.169Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:47:59.062Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:48:04.724Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-14T16:48:10.647Z",
+      "feature": "resume",
+      "phase": "do",
+      "action": "updated"
     }
   ]
 }
